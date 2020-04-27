@@ -1,0 +1,133 @@
+
+/* Sets the color of the body ___________________________________________*/
+body {
+    /*    padding: 0px;                             */
+        background-color:rgb(240, 240, 240);
+    /*    margin-bottom: 90px;                      */
+}
+
+/* Gives the body some padding __________________________________________*/
+.container-fluid {
+/*    height: 100vh;
+    position: relative;        */
+    padding: 3%;
+    padding-top: 50px;
+}
+
+/* Sets the footer ______________________________________________________*/
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(200, 200, 200);
+    color: white;
+    height: 50px;
+    border-top: 6px solid rgb(3, 193, 193);
+    position: relative;
+    padding: 9px;
+/*    bottom: -90px; */
+    width: 100%;
+    font-size: 15px;
+}
+
+/* Formats the HOME portion of the navbar________________________________*/
+#home {
+    background-color: rgb(3, 193, 193);
+    color: white;
+    font: bold 25px Georgia, 'Times New Roman', Times, serif; 
+    position: relative;
+    left: 5%;
+    padding: 15px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+/* Sets the navbar to white when the page is wide */
+@media (min-width: 992px) {
+    .navbar-custom {
+      background-color: white;
+      }
+    }
+/* Sets the navbar to white when the page is wide */
+@media (max-width: 991px) {
+    .navbar-custom {
+      background-color: rgb(3, 193, 193);
+      }
+    } /*_________________________________________________________________*/
+
+
+/* Sets the color of the columns' bodies to white _______________________*/
+.white {
+    background-color: white;
+    color: rgb(80, 80, 80);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3%;
+    padding: 5%;
+    padding-top: 20px;
+}
+
+/* Sets the color and font for the coulmn headers _______________________*/
+h2 {
+    color: rgb(3, 193, 193); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* Sets size of the images ______________________________________________*/
+.small-image {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-right:15px;
+}
+.big-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.comparing-image {
+    max-width: 50pc;
+    width: 100%;
+    height: auto;
+}
+.multi-image {
+    max-width: 175px;
+    width: 50%;
+    height: auto;
+    padding: 2%;
+}
+.image-selection {
+    border: 3px solid rgb(3, 193, 193);
+}
+.null-selection {
+        border: 3px solid white;
+}/* ______________________________________________________________________*/
+
+
+
+
+/* ______________________________________________________________________*/
+/* ______________________________________________________________________*/
+
+.comp {
+    padding-top: 30px;
+}
+
+.compare {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+h3 {
+    background-color: white;
+    padding-top: 15px;
+    color: rgb(3, 193, 193); 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 9px;
+}
+
+tbody {
+    text-align: center;
+}
