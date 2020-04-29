@@ -23,7 +23,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
                         <div class="dropdown-menu dropdown-menu-right" >
-                            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="temperature.html">Temperature</a>
                             <a class="dropdown-item" href="humidity.html">Humidity</a>
                             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                             <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
@@ -53,7 +53,8 @@
                     <h2>Cloudiness</h2>
                     <hr>
                     <img class="big-image img-responsive" src= "Resources/plots/Lat_vs_Cloudiness.png" alt= "Cloudiness vs. City Latitude"/>
-                    <p> TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT </p>
+                    <br>
+                    <p>There is no strong relationship between latitude and cloudiness. If this plot illuminated anything, it had to do with the data itself and not what it represented. Almost all of the vertical bands run along cloudiness percentages which are divisible by 4. This leads me to believe that most stations collecting data report it in fractions out of 25 (or increments of 4%).  The only exceptions are stations reporting 1%, meaning those stations report ‘no clouds’ as 1% rather than 0%, and at 75% which I can’t explain. My initial guess was that some less advanced stations only reported in quarters, but that was quickly disproven when I noticed such a strong bar at 75% but no data at 25% or 50%.</p>
                 </div>
             </div>
             
@@ -86,5 +87,13 @@
 
 </body>
 
+<!-- FOOTER --------------------------------------------------------------------------------------->
+<footer>
+    <div class="text-center">
+        © Copyright
+        <a href="https://www.linkedin.com/in/warrenelson/" target="_blank" style="color:darkturquoise;">Warren Elson</a>
+        2020
+    </div>
+</footer>
 
 </html>
